@@ -1,0 +1,5 @@
+This is a brief introduction about the google clone1 project.
+
+although the clone isn't as perfect as the real google webpage, the skills demonstrated were the use of simple html, css plus the use of bootstrap CDN to simply the ready to use work.
+
+this project will be modified later on.
