@@ -2,12 +2,12 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    outline: 1px dashed blue;
+    /* outline: 1px dashed blue; */
 }
 
 body {
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -16,10 +16,8 @@ body {
 
 nav {
     background-color: blue;
-    width: 100%;
+    width: 100vw;
     border: 1px solid black;
-    
-
 }
 
 nav .lists {
@@ -30,14 +28,19 @@ nav .lists {
 }
 
 .lists li {
+    border: 1px solid white;
     list-style: none;
     padding: 10px;
+}
+
+.lists li > a {
+    text-decoration: none;
 }
 
 .main-container {
     width: 80vw;
     min-height: 400px;
-    margin-bottom: 250px;
+    margin: 200px 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -52,12 +55,56 @@ nav .lists {
     margin: 10px 5px;
 }
 
+.form-group li {
+    list-style: none;
+}
+
+.form-group li > a {
+    text-decoration: none;
+} 
+
 footer {
-    width: 100%;
+    width: 100vw;
     min-height: 150px;
     background-color: grey;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.footer-sect1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    margin-bottom: 20px;
+    background-color: aliceblue;
+}
+
+.footer-lists {
+    width: 100%;
+    
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-lists li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border: 1px solid black;
+    list-style: none;
+}
+
+.footer-lists li > a {
+    text-decoration: none;
+}
+
+.footer-lists-sect2 li > a {
+    font-size: larger;
+    color: white;
 }
