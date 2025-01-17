@@ -82,6 +82,23 @@ nav .lists {
     margin: 0 5px;
 }
 
+.search-from-imgs {
+    border: 1px solid white;
+    border-radius: 50px;
+    width: 60px;
+    height: 40px;
+}
+
+.search-from-imgs:hover {
+    cursor: pointer;
+}
+
+
+
+.main-search-form-group {
+    border: 1px solid black;
+    border-radius: 50px;
+}
 .btn-group {
     margin: 5px 0;
 }
