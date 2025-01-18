@@ -1,3 +1,4 @@
+/* Global Styles */
 * {
     padding: 0;
     margin: 0;
@@ -14,6 +15,7 @@ body {
     align-items: center;
 }
 
+/* Navigation Styles */
 nav {
     background-color: blue;
     width: 100vw;
@@ -28,7 +30,8 @@ nav .lists {
 }
 
 .lists li {
-    border: 1px solid white;
+    background-color: white;
+    border: 1px dashed black;
     list-style: none;
     padding: 10px;
 }
@@ -37,6 +40,12 @@ nav .lists {
     text-decoration: none;
 }
 
+.nav-icons {
+    height: 40px;
+    width: 40px;
+}
+
+/* Main Container Styles */
 .main-container {
     width: 80vw;
     min-height: 400px;
@@ -47,12 +56,12 @@ nav .lists {
     align-items: center;
 }
 
+/* Form Group Styles */
 .form-group {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 5px;
-    
 }
 
 .form-group li {
@@ -61,15 +70,13 @@ nav .lists {
 
 .form-group li > a {
     text-decoration: none;
-} 
+}
 
 .form-group1 {
-    
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    
 }
 
 #main-img {
@@ -93,15 +100,16 @@ nav .lists {
     cursor: pointer;
 }
 
-
-
 .main-search-form-group {
     border: 1px solid black;
     border-radius: 50px;
 }
+
+/* Button Group Styles */
 .btn-group {
     margin: 5px 0;
 }
+
 .btn {
     padding: 10px 30px;
     border: none;
@@ -112,20 +120,21 @@ nav .lists {
 .btn:hover {
     border: 1px dashed white;
     border-radius: 50px;
-
 }
 
+/* Service Links Styles */
 .service-links {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
- 
-.service-links li  {
+
+.service-links li {
     list-style: none;
 }
 
+/* Footer Styles */
 footer {
     width: 100vw;
     min-height: 150px;
@@ -147,8 +156,6 @@ footer {
 
 .footer-lists {
     width: 100%;
-    
-    
     display: flex;
     justify-content: space-between;
     align-items: center;
