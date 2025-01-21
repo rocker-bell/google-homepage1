@@ -179,26 +179,53 @@ footer {
     color: white;
 }
 
-/*  modal  */
+/* Modal Styles */
+.modal-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-areas: 
+        "box1 box2 box3"
+        "box4 box5 box6";
+    gap: 10px;
+    width: 200px;
+    height: 300px;
+}
 
 .box {
     width: 40px;
     height: 40px;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
 }
 
-.box1 { grid-area: "box1";}
-.box2 { grid-area: "box2";}
-.box3 { grid-area: "box3";}
-.box4 { grid-area: "box4";}
-.box5 { grid-area: "box5";}
-.box6 { grid-area: "box6";}
+.box1 { grid-area: box1; }
+.box2 { grid-area: box2; }
+.box3 { grid-area: box3; }
+.box4 { grid-area: box4; }
+.box5 { grid-area: box5; }
+.box6 { grid-area: box6; }
 
-.modal {
-    display: grid;
-    grid-template-areas: 
-        "box1 box2 box3 "
-        "box4 box5 box6"
-    ;
-    width: 200px;
-    height: 300px;
+/* checkout_button */
+
+.checkout_button {
+    padding: 10px;
 }
