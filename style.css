@@ -210,19 +210,21 @@ footer {
 .box {
     width: 40px;
     height: 40px;
-    background-color: lightgray;
+    background-color: blue;
     display: flex;
     justify-content: center;
     align-items: center;
     border: 1px solid black;
+    background-size: cover;
+    background-position: center;
 }
 
-.box1 { grid-area: box1; }
-.box2 { grid-area: box2; }
-.box3 { grid-area: box3; }
-.box4 { grid-area: box4; }
-.box5 { grid-area: box5; }
-.box6 { grid-area: box6; }
+.box1 { grid-area: box1; background-image: url('./images/gmail-btn-icon.png'); }
+.box2 { grid-area: box2; background-image: url('./images/gmail-icon.png'); }
+.box3 { grid-area: box3; background-image: url('./images/Google (1).gif'); }
+.box4 { grid-area: box4; background-image: url('./images/google (1).png'); }
+.box5 { grid-area: box5; background-image: url('./images/google2.png'); }
+.box6 { grid-area: box6; background-image: url('./images/pixeltrue-icons-seo-ads-on-google.png'); }
 
 /* checkout_button */
 
