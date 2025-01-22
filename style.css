@@ -201,15 +201,19 @@ footer {
     display: grid;
     grid-template-areas: 
         "box1 box2 box3"
-        "box4 box5 box6";
+        "box4 box5 box6"
+        "box7 box8 box9"
+        ;
+    justify-content: space-around;
+    align-items: center;
     gap: 10px;
-    width: 200px;
-    height: 300px;
+    width: 350px;
+    height: 400px;
 }
 
 .box {
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
     background-color: blue;
     display: flex;
     justify-content: center;
@@ -225,6 +229,9 @@ footer {
 .box4 { grid-area: box4; background-image: url('./images/google (1).png'); }
 .box5 { grid-area: box5; background-image: url('./images/google2.png'); }
 .box6 { grid-area: box6; background-image: url('./images/pixeltrue-icons-seo-ads-on-google.png'); }
+.box7 { grid-area: box7; background-image: url('./images/pixeltrue-icons-seo-ads-on-google.png'); }
+.box8 { grid-area: box8; background-image: url('./images/pixeltrue-icons-seo-ads-on-google.png'); }
+.box9 { grid-area: box9; background-image: url('./images/pixeltrue-icons-seo-ads-on-google.png'); }
 
 /* checkout_button */
 
