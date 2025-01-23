@@ -64,6 +64,37 @@ mode.addEventListener("click", function () {
     document.body.appendChild(modal_container);
 });
 
+modal.addEventListener('click', function () {
+    if (modal.querySelector(".box1")) {
+        console.log("box1")
+    }
+    if (modal.querySelector(".box2")) {
+        console.log("box2")
+    }
+    if (modal.querySelector(".box3")) {
+        console.log("box3")
+    }
+    if (modal.querySelector(".box4")) {
+        console.log("box4")
+    }
+    if (modal.querySelector(".box5")) {
+        console.log("box5")
+    }
+    if (modal.querySelector(".box6")) {
+        console.log("box6")
+    }
+    if (modal.querySelector(".box7")) {
+        console.log("box8")
+    }
+    if (modal.querySelector(".box8")) {
+        console.log("box8")
+    }
+    if (modal.querySelector(".box9")) {
+        console.log("box9")
+    }
+    
+})
+
 mail.addEventListener("click", function () {
     console.log("nav-icon2");
 });
